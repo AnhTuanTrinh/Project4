@@ -8,16 +8,77 @@
     <link rel="stylesheet" href="styleJr.css" />
     <link rel="stylesheet" href="./Tuan/index.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css">
   </head>
+
+
   <body>
+    <header>
+      <div class="container">
+          <a href="/" class="logo">
+              <img src="/images/logo.png" alt="Logo">
+          </a>
+          <nav class="main-menu">
+              <ul class="nav justify-content-center">
+                  <li class="nav-item">
+                      <a class="nav-link" href="/">Trang chủ</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="/products">Sản phẩm</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="/about">Về chúng tôi</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="/contact">Liên hệ</a>
+                  </li>
+              </ul>
+          </nav>
+          <form action="/search" class="search-form">
+              <input type="text" placeholder="Tìm kiếm">
+              <button type="submit">Tìm kiếm</button>
+          </form>
+          <div class="cart">
+              <a href="/cart">Giỏ hàng</a>
+          </div>
+      </div>
+  </header>
+
+
+
+
+  <section class="product-intro">
+    <div class="container">
+        <h2 class="product-title">Tên sản phẩm</h2>
+        <p class="product-description">Mô tả sản phẩm</p>
+        <img class="product-image" src="images/product.jpg" alt="Ảnh sản phẩm">
+        <div class="product-features">
+            <ul>
+                <li>Tính năng 1</li>
+                <li>Tính năng 2</li>
+                <li>Tính năng 3</li>
+            </ul>
+        </div>
+        <div class="product-cta">
+            <a href="/product-detail">Chi tiết sản phẩm</a>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+  
     
     
     
 
    
-    <!-- tuấn anh footer  -->
+    
     <footer>
-      <div class="container">
+      <div class="container-footer">
         <p>TEELAB</p>
       </div>
 
@@ -70,7 +131,7 @@
 
       <p>Copyright &copy; 2023 My Company. All rights reserved.</p>
     </footer>
+  
   </body>
-  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-  <script src="main.js"></script>
+  
 </html>
